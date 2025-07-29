@@ -1,0 +1,19 @@
+{
+  "name": "pdf-maker-mcp",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@mermaid-js/mermaid-cli": "^10.5.1",
+    "marked": "^9.1.2",
+    "puppeteer": "^21.3.8",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.33",
+    "typescript": "^5.0.4"
+  }
+}
