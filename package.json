@@ -1,0 +1,26 @@
+{
+  "name": "pdfmaker_mcp",
+  "version": "1.0.0",
+  "description": "Makes PDFs for your LLM s",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "eslint": "^9.32.0",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@mermaid-js/mermaid-cli": "^11.9.0",
+    "commander": "^14.0.0",
+    "github-markdown-css": "^5.8.1",
+    "marked": "^16.1.1",
+    "puppeteer": "^23.11.1"
+  }
+}
